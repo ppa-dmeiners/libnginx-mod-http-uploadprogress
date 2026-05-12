@@ -1,3 +1,9 @@
+libnginx-mod-http-uploadprogress (1:0.9.4-3+ubuntu24.04.1+deb.meiners.net+1.30.0) noble; urgency=medium
+
+  * build against nginx-abi-1.30.0
+
+ -- David Meiners <david@meiners.net>  Tue, 12 May 2026 03:50:34 +0000
+
 libnginx-mod-http-uploadprogress (1:0.9.4-3+ubuntu24.04.1+deb.meiners.net+1.28.3) noble; urgency=medium
 
   * Backport to noble from resolute
