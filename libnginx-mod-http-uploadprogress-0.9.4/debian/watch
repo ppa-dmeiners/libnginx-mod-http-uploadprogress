@@ -1,0 +1,6 @@
+Version: 5
+Template: Github
+Owner: masterzen
+Project: nginx-upload-progress-module
+Uversion-Mangle: s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha|a|b)\d*)$/$1~$2/
+Pgp-Mode: none

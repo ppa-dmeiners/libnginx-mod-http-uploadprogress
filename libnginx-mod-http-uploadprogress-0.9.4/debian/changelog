@@ -1,0 +1,92 @@
+libnginx-mod-http-uploadprogress (1:0.9.4-3+ubuntu24.04.1+deb.meiners.net+1.28.3) noble; urgency=medium
+
+  * Backport to noble from resolute
+
+ -- David Meiners <david@meiners.net>  Thu, 07 May 2026 17:38:56 +0000
+
+libnginx-mod-http-uploadprogress (1:0.9.4-3build3) resolute; urgency=medium
+
+  * Rebuild against new nginx-abi-1.28.3-1.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 31 Mar 2026 20:29:53 +0200
+
+libnginx-mod-http-uploadprogress (1:0.9.4-3build2) resolute; urgency=medium
+
+  * Rebuild against new nginx-abi-1.28.2.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 17 Feb 2026 22:01:42 +0100
+
+libnginx-mod-http-uploadprogress (1:0.9.4-3build1) resolute; urgency=medium
+
+  * Rebuild against new nginx 1.28.1.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 29 Dec 2025 14:11:57 +0100
+
+libnginx-mod-http-uploadprogress (1:0.9.4-3) unstable; urgency=medium
+
+  * d/gbp.conf: dist = DEP14, debian-branch = debian/latest
+  * d/watch: rewrite to version 5, use Github uscan-template
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Thu, 11 Sep 2025 15:48:35 +0200
+
+libnginx-mod-http-uploadprogress (1:0.9.4-2) unstable; urgency=medium
+
+  * d/control: bump Standards-Version: 4.7.2, no changes
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Fri, 11 Apr 2025 14:27:02 +0200
+
+libnginx-mod-http-uploadprogress (1:0.9.4-1) unstable; urgency=medium
+
+  * New upstream version 0.9.4
+  * d/watch: use more generic template
+  * d/{control,copyright}: update my email to "janmojzis@debian.org"
+  * d/copyright: bump debian/* copyright year
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Fri, 21 Mar 2025 13:12:23 +0100
+
+libnginx-mod-http-uploadprogress (1:0.9.3-1) unstable; urgency=medium
+
+  * New upstream version 0.9.3
+  * d/p/0001-nginx-1.24.0-compatibility.patch remove
+  * d/control: bump Standards-Version: 4.7.0, no changes
+  * d/gbp.conf: add [pull] track-missing = True
+  * d/copyright: bump my copyright year
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Wed, 03 Jul 2024 19:11:23 +0200
+
+libnginx-mod-http-uploadprogress (1:0.9.2-5) unstable; urgency=medium
+
+  * d/control: remove Build-Depends nginx-abi-1.24.0-1
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Sat, 07 Oct 2023 15:31:28 +0200
+
+libnginx-mod-http-uploadprogress (1:0.9.2-4) unstable; urgency=medium
+
+  * d/p/0001-nginx-1.24.0-compatibility.patch added
+  * NEW ABI: rebuild with nginx-abi-1.24.0-1
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Tue, 27 Jun 2023 23:16:40 +0200
+
+libnginx-mod-http-uploadprogress (1:0.9.2-3) unstable; urgency=medium
+
+  * d/t/generic rework. The test now checks module after
+    installation/reload/restart.
+  * d/control: bump Standards-Version: 4.6.2, no changes
+  * d/gbb.conf: switched to debian branch main (debian-branch = main)
+  * d/copyright: bump my copyright year
+  * d/copyright: reformat text to be compatible with 'cme update dpkg-copyright'
+  * NEW ABI: rebuild with nginx-abi-1.22.1-7
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Mon, 13 Feb 2023 12:56:47 +0100
+
+libnginx-mod-http-uploadprogress (1:0.9.2-2) unstable; urgency=medium
+
+  * d/control: added Multi-Arch: foreign
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Fri, 09 Dec 2022 12:50:30 +0100
+
+libnginx-mod-http-uploadprogress (1:0.9.2-1) experimental; urgency=medium
+
+  * Initial release. (Closes: 1024211)
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Wed, 30 Nov 2022 14:46:58 +0100
