@@ -1,3 +1,9 @@
+libnginx-mod-http-uploadprogress (1:0.9.4-3+ubuntu24.04.1+deb.meiners.net+1.30.4) noble; urgency=medium
+
+  * New upstream version 1.30.4
+
+ -- David Meiners <david@meiners.net>  Sat, 18 Jul 2026 04:52:07 +0000
+
 libnginx-mod-http-uploadprogress (1:0.9.4-3+ubuntu24.04.1+deb.meiners.net+1.30.3) noble; urgency=medium
 
   * New upstream version 1.30.3
